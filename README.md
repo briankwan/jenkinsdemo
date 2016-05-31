@@ -5,6 +5,7 @@ Creates jenkins server on a docker container. Server will have git installed and
 Prereq:
  - generate sshkeys for jenkins server to connect to a github repo. Add the sshkey to github account and in the same directory as the Dockerfile. (https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
  - must have docker installed.
+ - must have a public facing IP for jenkins server to be hosted on
 
 MakeFile
  - make build, builds the docker image "myjenkins"
