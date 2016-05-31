@@ -1,0 +1,11 @@
+scm-api:latest
+promoted-builds:latest
+token-macro:latest
+parameterized-trigger:latest
+git-client:latest
+git:latest
+github-api:latest
+plain-credentials:latest
+token-macro:latest
+github:latest
+cucumber-testresult-plugin:latest
