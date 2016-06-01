@@ -27,7 +27,7 @@ Steps to setup:
  9. Select "From the Jenkins master ~/.ssh" for private key and add yorur credential.
  10. Select "Build when a change is pushed to GitHub."
  11. Add a build step (test purposes select execute shell and type 'echo "hello world"').
- 	11a(optional). For running test scripts, add a build step "Invoke Ant." Refer to the build.xml for the Ant script example. It is using src running JUnit tests on a simple Calculator class.
+     11a(optional). For running test scripts, add a build step "Invoke Ant." Refer to the build.xml for the Ant script example. It is using src running JUnit tests on a simple Calculator class.
  12. Save
  13. Go to your github repo settings and select "Webhooks and Services."
  14. Add service "Jenkins (GitHub plugin)."
